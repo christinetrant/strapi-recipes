@@ -4,7 +4,7 @@
   "info": {
     "singularName": "recipe",
     "pluralName": "recipes",
-    "displayName": "Recipe",
+    "displayName": "recipe",
     "description": ""
   },
   "options": {
@@ -12,37 +12,36 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Author": {
+    "author": {
       "type": "string"
     },
-    "Serves": {
+    "serves": {
       "type": "integer"
     },
-    "Calories": {
+    "calories": {
       "type": "integer"
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
-      "targetField": "Title",
       "required": true
     },
-    "URL": {
+    "url": {
       "type": "string",
       "regex": "[(http(s)?):\\/\\/(www\\.)?a-zA-Z0-9@:%._\\+~#=]{2,256}\\.[a-z]{2,6}\\b([-a-zA-Z0-9@:%_\\+.~#?&//=]*)"
     },
-    "Ingredients": {
+    "ingredients": {
       "type": "richtext",
       "required": true
     },
-    "Method": {
+    "method": {
       "type": "richtext",
       "required": true
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -50,12 +49,12 @@
         "images"
       ]
     },
-    "Category": {
+    "category": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::category.category"
     },
-    "Tags": {
+    "tags": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::tag.tag",
