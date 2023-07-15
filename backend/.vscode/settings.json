@@ -1,9 +1,9 @@
 {
   "workbench.colorCustomizations": {
-    "titleBar.activeBackground": "#663399",
-    "titleBar.inactiveBackground": "#d9bae8",
+    "titleBar.activeBackground": "#963399",
+    "titleBar.inactiveBackground": "#ef9bf1",
     // Status Bar Colors — The Status Bar is shown in the bottom of the workbench.
-    "statusBar.background": "#663399",
+    "statusBar.background": "#963399",
     "statusBar.foreground": "#fff"
   },
   // These are all my auto-save configs
@@ -18,5 +18,5 @@
   // tell the ESLint plugin to run on save
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  },
+  }
 }
